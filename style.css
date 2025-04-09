@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background: #333;
+    color: white;
+    padding: 1em;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+    padding: 0;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+  }
+  
+  .card {
+    background: #eee;
+    padding: 1em;
+    flex: 1;
+  }
+  
